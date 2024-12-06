@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .circle {
+    z-index: 1;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .point {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-color: #3498db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .number-point {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    pointer-events: none;
+    transform-origin: center;
+  }
+  
+  
+  .horizontal-border {
+    opacity: 0.5;
+    position: absolute;
+    border: 1px solid #ccc;
+    width: 100vw;
+  }
+  
+  
+  .vertical-border {
+    opacity: 0.5;
+    position: absolute;
+    border: 1px solid #ccc;
+    height: 100vh;
+  }
+  

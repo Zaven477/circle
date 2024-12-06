@@ -1,0 +1,35 @@
+.left-button {
+  position: absolute;
+  left: 5%;
+  top: 80%;
+  border: 1px solid;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.right-icon {
+  position: absolute;
+  left: 9%;
+  top: 80%;
+  border: 1px solid;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.points {
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  font-size: 17px;
+}

@@ -1,0 +1,14 @@
+.date {
+  position: absolute;
+  font-size: 160px;
+  white-space: pre;
+  color: #cd5c5c;
+  font-weight: bold;
+}
+
+.events {
+  position: absolute;
+  top: 88%;
+  font-size: 30px;
+  color: #cd5c5c;
+}
